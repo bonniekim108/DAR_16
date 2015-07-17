@@ -700,6 +700,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 }
 #page-intro #header{
 	position: static;
+	opacity: 0.3;
 }
 .admin-bar #header{
 	top: 32px;

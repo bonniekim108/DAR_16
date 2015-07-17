@@ -2,7 +2,7 @@ body{
 	color:#414042;
 }
 a{
-	color:#244fa6;
+	color: white;
 }
 a:hover{
 	color: #0c6b9c;
@@ -43,7 +43,8 @@ blockquote{
     background: #2f3f6e;
 }
 #header{
-	background: #150633;
+	background: #A19D97;
+	opacity: 0.3;
 	position: fixed;
 	top: 0;
 	left: 0;
