@@ -700,7 +700,6 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 }
 #page-intro #header{
 	position: static;
-	opacity: 0.3;
 }
 .admin-bar #header{
 	top: 32px;
@@ -1527,7 +1526,7 @@ h3.red{
 	height: 245px;
 	z-index: 102;
 	background: #732e83;
-	color: #fff;
+	color: #7E8D9E;
 }
 #footer .footer-columns{
 	padding: 26px 0;
@@ -1558,10 +1557,8 @@ h3.red{
 }
 #footer h4{
 	margin: 0 0 20px;
-	text-transform: uppercase;
 	font: 16px/26px 'FuturaPTBook', Helvetica, sans-serif;
-	color: #fff;
-	letter-spacing: 2px;
+	color: #41546B;
 }
 #footer h4.bold{
 	font-family: 'FuturaPTMedium', Helvetica, sans-serif;

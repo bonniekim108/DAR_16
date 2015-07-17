@@ -58,12 +58,11 @@ blockquote{
 	background: #2f3f6e;
 }
 .nav-section{
-	background: #3e5687;
+	background: #00918E;
 }
 .nav-section .link-prev,
 .nav-section .link-next{
-	color: #96a5d1;
-	background: #2f3f6e;
+	color: white;
 }
 .nav-section .link-prev:hover,
 .nav-section .link-next:hover{
@@ -115,7 +114,7 @@ h3.red{
 	background: #244fa6;
 }
 #footer{
-	background: #2c375a;
+	background: #E5EEF5;
 }
 #footer .column:after{
 	border-left: 1px solid #374368;
