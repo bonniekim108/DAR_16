@@ -638,6 +638,8 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 #header .logo{
 	float: left;
 	margin: 15px 0 0;
+	position: absolute;
+	left: 0;
 }
 #header .logo img{
 	display: block;
