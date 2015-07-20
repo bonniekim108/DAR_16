@@ -1475,6 +1475,7 @@ h3.red{
 	width: 406px;
 	position: relative;
 	padding: 0 60px 30px;
+	display: block;
 }
 #footer .column.col-2{
 	width: 386px;
@@ -1502,6 +1503,8 @@ h3.red{
 #footer h4.bold{
 	font-family: 'Helvetica', Arial, sans-serif;
 	font-weight: 700;
+	display: inline-block;
+	float: left;
 }
 .btn-red{
 	background: #0c6b9c;
@@ -1521,6 +1524,9 @@ h3.red{
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
 }
 .socials li{
 	display: inline-block;
