@@ -55,9 +55,7 @@
 	</header>
 	<section class="visual" <? if(!empty($intro_page_thumbnail[0])){ echo 'style="background-image: url('.$intro_page_thumbnail[0].')"'; } ?>>
 		<div class="center-wrap">
-			<?php/* if(!empty($intro_page_thumbnail[0])){?>
-			<img src="<?php echo $intro_page_thumbnail[0]; ?>" alt="">
-			<?php }*/ ?>
+
 			<div class="dt">
 				<div class="dtc">
 					<h2><?php echo $introductory_text; ?></h2>
