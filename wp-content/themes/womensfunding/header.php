@@ -94,7 +94,7 @@
 	<?php if(!is_front_page()): ?>
 		<header id="header">
 			<div class="center-wrap cf">
-				<strong class="logo"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo TDU; ?>/images/placeholderlogo.png" alt="<?php bloginfo('name'); ?>"></a></strong>
+				<strong class="logo"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo TDU; ?>/images/nrblogo_white.png" alt="<?php bloginfo('name'); ?>"></a></strong>
 				<?php wp_nav_menu( array(
 				'container' => 'nav',
 				'container_class' => 'main-nav',
