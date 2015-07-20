@@ -12,7 +12,7 @@ print_r($_POST);
 echo '</pre>'; 
 }
 */
-
+ 
 define('TDU', get_bloginfo('template_url'));
 
 add_theme_support( 'automatic-feed-links' );
@@ -82,8 +82,6 @@ function theme_paging_nav() {
 	</nav><!-- .navigation -->
 	<?php
 }
-
-
 function theme_post_nav() {
 	global $post;
 

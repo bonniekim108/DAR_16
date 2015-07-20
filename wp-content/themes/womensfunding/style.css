@@ -32,91 +32,15 @@ html{
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust:100%;
 }
-@font-face {
-    font-family: 'ProximaNovaRegular';
-    src: url('fonts/proxima_nova_regular-webfont.eot');
-    src: url('fonts/proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/proxima_nova_regular-webfont.woff2') format('woff2'),
-         url('fonts/proxima_nova_regular-webfont.woff') format('woff'),
-         url('fonts/proxima_nova_regular-webfont.ttf') format('truetype'),
-         url('fonts/proxima_nova_regular-webfont.svg#ProximaNovaRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-	font-family: 'FuturaPTBold';
-    src: url('fonts/paratype-futuraptboldreg.eot');
-    src: url('fonts/paratype-futuraptboldreg.eot') format('embedded-opentype'),
-         url('fonts/paratype-futuraptboldreg.woff2') format('woff2'),
-         url('fonts/paratype-futuraptboldreg.woff') format('woff'),
-         url('fonts/paratype-futuraptboldreg.ttf') format('truetype'),
-         url('fonts/paratype-futuraptboldreg.svg#FuturaPTBold') format('svg');
-}
-@font-face {
-	font-family: 'FuturaPTBook';
-    src: url('fonts/paratype-futuraptbookreg.eot');
-    src: url('fonts/paratype-futuraptbookreg.eot') format('embedded-opentype'),
-         url('fonts/paratype-futuraptbookreg.woff2') format('woff2'),
-         url('fonts/paratype-futuraptbookreg.woff') format('woff'),
-         url('fonts/paratype-futuraptbookreg.ttf') format('truetype'),
-         url('fonts/paratype-futuraptbookreg.svg#FuturaPTBook') format('svg');
-}
-@font-face {
-    font-family: 'FuturaPTLight';
-    src: url('fonts/paratype-futuraptlightreg.eot');
-    src: url('fonts/paratype-futuraptlightreg.eot') format('embedded-opentype'),
-         url('fonts/paratype-futuraptlightreg.woff2') format('woff2'),
-         url('fonts/paratype-futuraptlightreg.woff') format('woff'),
-         url('fonts/paratype-futuraptlightreg.ttf') format('truetype'),
-         url('fonts/paratype-futuraptlightreg.svg#FuturaPTLight') format('svg');
-}
-@font-face {
-    font-family: 'FuturaStdLight';
-    src: url('fonts/futurastd-light.eot');
-    src: url('fonts/futurastd-light.eot') format('embedded-opentype'),
-         url('fonts/futurastd-light.woff2') format('woff2'),
-         url('fonts/futurastd-light.woff') format('woff'),
-         url('fonts/futurastd-light.ttf') format('truetype'),
-         url('fonts/futurastd-light.svg#FuturaStdLight') format('svg');
-}
-/* fonts replased another */
-@font-face {
-	font-family: 'FuturaPTMedium';
-    src: url('fonts/paratype-futuraptbookreg.eot');
-    src: url('fonts/paratype-futuraptbookreg.eot') format('embedded-opentype'),
-         url('fonts/paratype-futuraptbookreg.woff2') format('woff2'),
-         url('fonts/paratype-futuraptbookreg.woff') format('woff'),
-         url('fonts/paratype-futuraptbookreg.ttf') format('truetype'),
-         url('fonts/paratype-futuraptbookreg.svg#FuturaPTMedium') format('svg');
-}
-@font-face {
-	font-family: 'FuturaMedium';
-    src: url('fonts/paratype-futuraptbookreg.eot');
-    src: url('fonts/paratype-futuraptbookreg.eot') format('embedded-opentype'),
-         url('fonts/paratype-futuraptbookreg.woff2') format('woff2'),
-         url('fonts/paratype-futuraptbookreg.woff') format('woff'),
-         url('fonts/paratype-futuraptbookreg.ttf') format('truetype'),
-         url('fonts/paratype-futuraptbookreg.svg#FuturaMedium') format('svg');
-}
-@font-face {
-	font-family: 'FuturaPTBookObl';
-    src: url('fonts/paratype-futuraptbookreg.eot');
-    src: url('fonts/paratype-futuraptbookreg.eot') format('embedded-opentype'),
-         url('fonts/paratype-futuraptbookreg.woff2') format('woff2'),
-         url('fonts/paratype-futuraptbookreg.woff') format('woff'),
-         url('fonts/paratype-futuraptbookreg.ttf') format('truetype'),
-         url('fonts/paratype-futuraptbookreg.svg#FuturaPTBookObl') format('svg');
-}
-/* end fonts replased another */
 body{
-	color:#414042;
-	font:16px/1.45 'FuturaPTBook', Arial, Helvetica, sans-serif;
+	font:16px/1.45 Helvetica, Arial, sans-serif;
 	margin:0;
 	height: 100%;
 	min-width: 1200px;
 }
 a{
 	color:#612166;
+	text-decoration:underline;
 }
 a:hover{
 	color: #0c6b9c;
@@ -140,7 +64,7 @@ abbr[title]{
 }
 b, strong{
 	font-weight:normal;
-	font-family: 'FuturaPTBold';
+	font-family: 'Helvetica', Arial, sans-serif;
 }
 dfn{
 	font-style:italic;
@@ -558,7 +482,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	overflow: hidden;
 }
 #wrapper{
-	padding: 85px 0 293px;
+	padding: 0 0 293px;
 	overflow: hidden;
 	position: relative;
 	min-height: 100%;
@@ -608,14 +532,14 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 }
 .page-home-wrap h1{
 	text-transform: uppercase;
-	font: 40px/56px 'FuturaPTLight', Helvetica, sans-serif;
+	font: 40px/56px Helvetica, sans-serif;
 	margin: 0 0 16px;
 	color: #fff;
 	letter-spacing: 3px;
 }
 .page-home-wrap h2{
 	text-transform: uppercase;
-	font: 24px/34px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 24px/34px Helvetica, sans-serif;
 	margin: 0;
 	letter-spacing: 1px;
 	color: #fff;
@@ -649,7 +573,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	background:#0c6b9c url(images/ico-menu.png) no-repeat 18px 50%;
 	color: #fff;
 	text-transform: uppercase;
-	font: 18px/54px 'FuturaPTMedium', Helvetica, sans-serif;
+	font: 18px/54px Helvetica, sans-serif;
 	height: 54px;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -731,16 +655,20 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 }
 #nav li{
 	float: left;
-	margin-left: 2px;
 }
 #nav a{
+	border-top: 1px solid #fff;
 	display: block;
+	margin-top: 40px;
+	margin-bottom: 15px;
 	padding: 0 17px;
 	text-transform: uppercase;
 	color: #fff;
-	font: 18px/85px 'FuturaPTBook', Helvetica, sans-serif;
+	font-size:12px;
+	line-height:30px;
 	letter-spacing: 1px;
 	text-decoration: none;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 #nav .active a{
 	background: #0c6b9c;
@@ -749,6 +677,10 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	text-decoration: none;
 	background: #4c0a59;
 	color: #fff;
+}
+#nav .active a, #nav a:hover{
+		border-top: 3px solid #fff;
+		line-height: 26px;
 }
 .visual{
 	color: #fff;
@@ -785,8 +717,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	padding: 0 0 20px;
 }
 .visual .dt h2{
-	/*text-transform: uppercase;*/
-	font: 28px/45px 'FuturaStdLight', Helvetica, sans-serif;
+	font: 28px/45px Helvetica, sans-serif;
 	margin: 0;
 	letter-spacing: 1.5px;
 	color: #fff;
@@ -796,7 +727,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	left: 0;
 	right: 0;
 	bottom: 18px;
-	font: 16px/23px 'FuturaPT Book', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 	text-align: center;
 }
 .visual .bottom-text p{
@@ -831,11 +762,12 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 .nav-section .link-next{
 	float: left;
 	width: 400px;
-	padding: 0 15px 0 88px;
+	padding: 0 15px 0 25px;
 	color: #9554a2;
 	background: #4c0a59;
-	font: 16px/48px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 16px/48px Helvetica, sans-serif;
 	text-decoration: none;
+	letter-spacing: 0.4px;
 }
 .nav-section .link-prev:hover,
 .nav-section .link-next:hover{
@@ -865,6 +797,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 .twocolumns .aside-content.v1{
 	margin: 0;
 	padding: 35px 0 0;
+	line-height: 1.8em;
 }
 .twocolumns .aside-column.v1{
 	padding: 35px 0 0;
@@ -878,7 +811,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 .twocolumns .aside-content .s-story:first-child,
 .twocolumns .aside-content .s-story.first,
 .twocolumns .aside-content .separator + .s-story{
-	padding-top: 0;
+	padding-top: 8.5em;
 }
 .twocolumns .aside-content .s-story:last-child{
 	border-bottom: none;
@@ -887,11 +820,12 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	font:14px/26px 'Open Sans', Helvetica, sans-serif;
 } */
 .twocolumns .aside-content.intro h2{
-	font: 24px/34px 'FuturaStdLight', Helvetica, sans-serif;
+	font: 24px/34px Helvetica, sans-serif;
 	margin: 25px 0;
 }
 .twocolumns .aside-content.intro p{
 	margin: 0 0 20px;
+	line-height: 1.8em;
 }
 .s-story iframe.twitter-tweet{
 	width: 640px !important;
@@ -912,15 +846,14 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	display: block;
 	padding: 12px 10px 12px 90px;
 	background: #732e83;
-	color: #fff;
-	text-transform: uppercase;
+	color: #41546b;
 	text-decoration: none;
 }
 #nav-aside a:hover,
 #nav-aside .active a{
 	text-decoration: none;
 	background: #0c6b9c;
-	color: #fff;
+	color: #41546b;
 }
 #nav-aside img{
 	float: left;
@@ -935,8 +868,9 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 #nav-aside i{
 	display: table-cell;
 	vertical-align: middle;
-	font: 16px/26px 'FuturaPTBook', Helvetica, sans-serif;
-	letter-spacing: 1.5px;
+	font: 16px/26px Helvetica, sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
 }
 .aside-column .widget_text{
 	padding: 0 0 0 30px;
@@ -952,24 +886,24 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 /* content-style end */
 h2{
 	color: #612166;
-	font: 28px/45px 'FuturaStdLight', Helvetica, sans-serif;
+	font: 28px/45px Helvetica, sans-serif;
 	margin: 0 0 20px;
 }
 h3{
 	color: #612166;
-	font: 18px/23px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 18px/23px Helvetica, sans-serif;
 	margin: 0 0 10px;
 }
 h4{
 	color: #612166;
-	font: 16px/23px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 	margin: 0 0 20px;
 }
 .content-style h2,
 .content-style h3,
 .content-style h4{
 	letter-spacing: 1px;
-	text-transform: uppercase;
+
 }
 .data-row{
 	margin: 0 0 32px;
@@ -977,7 +911,7 @@ h4{
 .data-row .title{
 	text-transform: uppercase;
 	color: #612166;
-	font: 16px/40px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/40px Helvetica, sans-serif;
 	float: left;
 	margin: 0 45px 0 0;
 	padding: 10px 0;
@@ -987,13 +921,13 @@ h4{
 	background: #f1f2f2;
 	padding: 10px 25px;
 	color: #414042;
-	font: 16px/23px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 }
 .data-row .data p{
 	margin: 0;
 }
 .data-row .data .num{
-	font: 40px/40px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 40px/40px Helvetica, sans-serif;
 	color: #612166;
 	/* display: inline-block;
 	vertical-align: middle; 
@@ -1035,7 +969,7 @@ h4{
 	padding: 15px 30px;
 	border-left: 2px solid #cacaca;
 	text-align: center;
-	font: 16px/23px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 }
 .three-cols .col{
 	width: 33%;
@@ -1089,7 +1023,7 @@ h4{
 	background: #f1f1f2;
 	padding: 40px 25px 32px;
 	text-align: center;
-	font: 16px/26px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/26px Helvetica, sans-serif;
 }
 .data-boxes.three .data-box{
 	width: 31%;
@@ -1100,7 +1034,7 @@ h4{
 }
 .data-boxes .data-box h5{
 	text-transform: uppercase;
-	font: 16px/29px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/29px Helvetica, sans-serif;
 	color: #612166;
 	margin: 0 0 1px;
 	letter-spacing: 1px;
@@ -1143,7 +1077,7 @@ h4+.two-cols-text{
 	margin: 0 0 23px;
 }
 .two-cols-text .col p em{
-	font-family: FuturaPTBook, Arial, Helvetica, sans-serif;
+	font-family: 'Helvetica', Arial, sans-serif;
 	font-style: italic;
 }
 .two-cols-text.v1{
@@ -1172,7 +1106,7 @@ h4+.two-cols-text{
 .data-text-row{
 	color: #58595b;
 	text-transform: uppercase;
-	font: 14px/23px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 14px/23px Helvetica, sans-serif;
 	letter-spacing: 1px;
 	padding: 3px 0 3px 33px;
 	margin: 50px 0 26px;
@@ -1372,7 +1306,7 @@ h4+.two-cols-text{
 }
 .two-cols-info .title h3{
 	color: #0c6b9c;
-	font: 16px/23px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 	margin: 0 -15px 0 0;
 	text-transform: none;
 	letter-spacing: 0;
@@ -1385,7 +1319,7 @@ h4+.two-cols-text{
 	line-height: 35px;
 }
 .two-cols-info .list-numbers{
-	font: 30px/35px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 30px/35px Helvetica, sans-serif;
 }
 .two-cols-info .list-items li,
 .two-cols-info .list-numbers li{
@@ -1483,7 +1417,7 @@ h4+.two-cols-text{
 	float: left;
 }
 .logos-slider .flex-direction-nav a{
-	font: 16px/23px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -1491,7 +1425,7 @@ h4+.two-cols-text{
 	color: #ccc;
 }
 h3.red{
-	font: 16px/23px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 	color: #0c6b9c;
 	margin: 0 0 13px;
 	text-transform: none;
@@ -1510,7 +1444,7 @@ h3.red{
 .image-caption figcaption{
 	background: #612166;
 	padding: 9px 10px;
-	font: 16px/23px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 	color: #fff;
 }
 .imgs-captions{
@@ -1524,7 +1458,7 @@ h3.red{
 	height: 245px;
 	z-index: 102;
 	background: #732e83;
-	color: #7E8D9E;
+	color: #fff;
 }
 #footer .footer-columns{
 	padding: 26px 0;
@@ -1534,7 +1468,7 @@ h3.red{
 	float: left;
 	width: 406px;
 	position: relative;
-	padding: 0 33px 30px;
+	padding: 0 60px 30px;
 }
 #footer .column.col-2{
 	width: 386px;
@@ -1555,11 +1489,13 @@ h3.red{
 }
 #footer h4{
 	margin: 0 0 20px;
-	font: 16px/26px 'FuturaPTBook', Helvetica, sans-serif;
-	color: #6A;
+	font: 16px/26px "Fira Sans";
+	color: #41546b;
+	line-height: 1.3em;
 }
 #footer h4.bold{
-	font-family: 'FuturaPTMedium', Helvetica, sans-serif;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-weight: 700;
 }
 .btn-red{
 	background: #0c6b9c;
@@ -1569,7 +1505,7 @@ h3.red{
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #fff;
-	font: 15px/40px 'FuturaPT', Helvetica, sans-serif;
+	font: 15px/40px Helvetica, sans-serif;
 	text-decoration: none;
 }
 .btn-red:hover{
@@ -1639,11 +1575,11 @@ h3.red{
 }
 .team-list-widget .team-list h3{
 	color: #0c6b9c;
-	font: 16px/24px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 16px/24px Helvetica, sans-serif;
 	margin: 0;
 }
 .team-list-widget .team-list h4{
-	font: 16px/24px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/24px Helvetica, sans-serif;
 	margin: 0;
 	color: #000;
 }
@@ -1667,13 +1603,13 @@ h3.red{
 }
 .team-columns .column h3{
 	color: #0c6b9c;
-	font: 18px/24px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 18px/24px Helvetica, sans-serif;
 	margin: 0 0 3px;
 	text-transform: none;
 	letter-spacing: 0;
 }
 .team-columns .column h4{
-	font: 18px/24px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 18px/24px Helvetica, sans-serif;
 	margin: 0;
 	color: #000;
 	text-transform: none;
@@ -1685,22 +1621,22 @@ h3.red{
 .center-title{
 	text-align: center;
 	margin: 0 0 22px;
-	font-family: 'FuturaPTBook', Helvetica, sans-serif;
+	font-family: 'Helvetica', Arial, sans-serif;
 	text-transform: uppercase;
 	/* color: #622466;
 	text-transform: uppercase;
-	font: 28px/45px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 28px/45px Helvetica, sans-serif;
 	letter-spacing: 1px; */
 }
 .center-title-text{
 	text-align: center;
 	margin: 0 0 13px;
-	font-family: 'FuturaPTBook', Helvetica, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	letter-spacing: 0;
 	text-transform: uppercase;
 	/* text-transform: uppercase;
 	color: #622466;
-	font: 28px/45px 'FuturaPTBook', Helvetica, sans-serif; */
+	font: 28px/45px Helvetica, sans-serif; */
 }
 .three-ico-blocks{
 	border:solid #cacaca;
@@ -1725,7 +1661,7 @@ h3.red{
 }
 .three-ico-blocks .block .num{
 	color: #612166;
-	font: 40px/40px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 40px/40px Helvetica, sans-serif;
 	margin: 0;
 	display: block;
 }
@@ -1756,7 +1692,7 @@ h3.red{
 .three-ico-boxes .box h4{
 	color: #612166;
 	text-transform: uppercase;
-	font: 16px/24px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/24px Helvetica, sans-serif;
 	margin: 0;
 	letter-spacing: 1px;
 }
@@ -1814,7 +1750,7 @@ h3.red{
 .two-ico-boxes .box h4{
 	color: #fff;
 	text-transform: uppercase;
-	font: 18px/24px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 18px/24px Helvetica, sans-serif;
 	margin: 0 0 13px;
 	letter-spacing: 1px;
 }
@@ -1928,7 +1864,7 @@ h3.red{
 	margin: 90px 0 0;
 }
 .section-title{
-	font-family: 'FuturaPTBook', Helvetica, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	margin: 0 0 15px;
 }
 .s-top-text{
@@ -1991,7 +1927,7 @@ h3.red{
 	text-align: center;
 	text-transform: uppercase;
 	color: #414042;
-	font:28px/30px 'FuturaPTBold', Helvetica, sans-serif;
+	font:28px/30px Helvetica, sans-serif;
 	letter-spacing:0;
 }
 .f-grey-data:before{
@@ -2009,7 +1945,7 @@ h3.red{
 .f-grey-data .num{
 	color: #612166;
 	display: block;
-	font:56px/58px 'FuturaPTBold', Helvetica, sans-serif;
+	font:56px/58px Helvetica, sans-serif;
 }
 .f-grey-data h4,
 .f-grey-data p{
@@ -2175,7 +2111,7 @@ h3.red{
 .s-box h4{
 	margin: 0;
 	text-transform: none;
-	font: 18px/23px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 18px/23px Helvetica, sans-serif;
 }
 .s-box h4 a{
 	color: #732e83;
@@ -2188,7 +2124,7 @@ h3.red{
 	display: inline-block;
 	vertical-align: top;
 	text-transform: uppercase;
-	font: 14px/40px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 14px/40px Helvetica, sans-serif;
 	color: #fff;
 	background: #0c6b9c;
 	padding: 0 40px;
@@ -2219,7 +2155,7 @@ h3.red{
 }
 .team-items .item h5{
 	color: #0c6b9c;
-	font: 16px/23px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 	margin: 0;
 }
 .team-items .item p{
@@ -2287,13 +2223,13 @@ h3.red{
 
 .three-ico-cols .col h5{
 	text-transform: uppercase;
-	font:18px/23px 'FuturaPTBold', Helvetica, sans-serif;
+	font:18px/23px Helvetica, sans-serif;
 	margin: 0 0 13px;
 	letter-spacing: 1px;
 }
 .three-ico-cols .col h3{
 	color: #0c6b9c;
-	font: 16px/23px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 	margin: 0;
 	text-transform: none;
 	letter-spacing: 0;
@@ -2301,7 +2237,7 @@ h3.red{
 .three-ico-cols .col .num{
 	color: #612166;
 	display: block;
-	font:40px/43px 'FuturaPTBold', Helvetica, sans-serif;
+	font:40px/43px Helvetica, sans-serif;
 	margin: 0 -10px;
 	letter-spacing: -2px;
 }
@@ -2312,7 +2248,7 @@ h3.red{
 	background: #f1f2f2;
 	padding: 28px 20px;
 	margin: 38px 0 0;
-	font:16px/23px 'FuturaPTBook', Helvetica, sans-serif;
+	font:16px/23px Helvetica, sans-serif;
 	text-transform: none;
 }
 .three-ico-cols .col .f-grey-data p{
@@ -2374,7 +2310,7 @@ h3.red{
 	background: #5f2963;
 	padding: 7px 15px 13px;
 	color: #fff;
-	font: 16px/23px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 16px/23px Helvetica, sans-serif;
 }
 .mark-text{
 	background: #f1f2f2;
@@ -2389,7 +2325,7 @@ h4 + .separator{
 }
 .mark-text .num{
 	color: #612166;
-	font: 40px/40px 'FuturaPTBold', Helvetica, sans-serif;
+	font: 40px/40px Helvetica, sans-serif;
 	margin: 0;
 	display: display: inline-block;
 	vertical-align: middle;
@@ -2412,14 +2348,14 @@ h4 + .separator{
 }
 
 #main.main-supporters{
-	padding-top: 67px;
+	padding-top: 10em;
 }
 .main-supporters h1{
 	text-transform: uppercase;
 	text-align: center;
 	color: #612166;
 	letter-spacing: 1px;
-	font: 31px/38px 'FuturaPTBook', Helvetica, sans-serif;
+	font: 31px/38px Helvetica, sans-serif;
 	margin: 0 0 48px;
 }
 .main-supporters ul{
