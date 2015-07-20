@@ -684,6 +684,10 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 		border-top: 3px solid #fff;
 		line-height: 26px;
 }
+#nav a:hover{
+		border-top: 3px solid #54b848;
+		line-height: 26px;
+}
 .visual{
 	color: #fff;
 	min-height: 553px;
