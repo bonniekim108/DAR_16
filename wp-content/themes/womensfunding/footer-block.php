@@ -11,7 +11,7 @@
 			<?php } ?>
 			<!-- End Social Media Icons -->
 			<!-- Begin Footer Logos -->
-			<?php get_sidebar( 'right-sidebar' ); ?>
+<!-- 			<?php get_sidebar( 'right-sidebar' ); ?> -->
 			<!-- Begin Footer Logos -->
 			</div>
 			<div class="column col-2">
