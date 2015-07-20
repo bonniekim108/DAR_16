@@ -817,7 +817,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 .twocolumns .aside-content .s-story:first-child,
 .twocolumns .aside-content .s-story.first,
 .twocolumns .aside-content .separator + .s-story{
-	padding-top: 8.5em;
+	padding-top: 1em;
 }
 .twocolumns .aside-content .s-story:last-child{
 	border-bottom: none;
