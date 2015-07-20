@@ -850,7 +850,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 }
 #nav-aside a{
 	display: block;
-	padding: 12px 10px 12px 65px;
+	padding: 12px 10px 12px 60px;
 	background: #732e83;
 	color: #41546b;
 	text-decoration: none;
