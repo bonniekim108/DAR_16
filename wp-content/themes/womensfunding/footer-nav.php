@@ -17,8 +17,8 @@ $current_id = get_the_ID();
 //echo '</pre>';
 
 $current = array_search($current_id, $pages);
-$prevID = $pages[$current-1];
-$nextID = $pages[$current+1];
+$prevID = $pages[$current-1] ? $pages[$current-1]: null;
+$nextID = $pages[$current+1] ? $pages[$current+1]: null;
 
 $prev_title = get_field("short_title", $prevID);
 $next_title = get_field("short_title", $nextID);

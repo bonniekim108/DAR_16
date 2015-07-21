@@ -24,7 +24,9 @@ pre{
 	color:#666;
 }
 blockquote{
-	border:solid #cacaca;
+	padding: 30px;
+	line-height: 175%;
+	background-color: #F9FBFB;
 	color: #231f20;
 }
 .comment-author a:hover, .comment-list .pingback a:hover, .comment-list .trackback a:hover, .comment-metadata a:hover{
