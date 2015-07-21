@@ -1505,6 +1505,7 @@ h3.red{
 	font-weight: 700;
 	display: inline-block;
 	float: left;
+	margin-top: 15px;
 }
 .btn-red{
 	background: #0c6b9c;
