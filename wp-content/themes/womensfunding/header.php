@@ -107,7 +107,4 @@
 	<?php endif; ?>
 
 
-Notice: Undefined offset: 8 in /home/elefin5/public_html/dar16/wp-content/themes/womensfunding/footer-nav.php on line 21
-
-
 
