@@ -19,9 +19,9 @@
 				'theme_location' => 'primary_nav'
 				)); ?>
 			</nav>
-			<div class="text-center">
-				<strong class="logo"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo TDU; ?>/images/placeholderlogo.png" alt="<?php bloginfo('name'); ?>"></a></strong>
-			</div>
+<!-- 			<div class="text-center"> -->
+				<!-- <strong class="logo"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo TDU; ?>/images/placeholderlogo.png" alt="<?php bloginfo('name'); ?>"></a></strong> -->
+<!-- 			</div> -->
 			<?php if ( have_posts() ) : the_post(); ?>
 			<?php the_content(); ?>
 			<?php endif; ?>
