@@ -1509,11 +1509,11 @@ h3.red{
 	background: #0c6b9c;
 	display: inline-block;
 	vertical-align: top;
-	padding: 2px 24px;
+	padding: 2px 20px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #fff;
-	font: 15px/40px Helvetica, sans-serif;
+	font: 14.5px/40px Helvetica, sans-serif;
 	text-decoration: none;
 }
 .btn-red:hover{
