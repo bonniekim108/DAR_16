@@ -32,15 +32,15 @@ function fixed_aside_nav(){
 		window_scroll_top = $(window).scrollTop();
 		nav_aside_height = nav_aside.height() + header_height;
 
-		// //change opacity to 1 on scrolldown
-		// if(window_scroll_top+header_height > window_height) {
-		// 	$('.header').css("opacity", 1);
-		// }
-		// else{
-		// 	$('.header').css("opacity", 0.3);
-		// }
+		//change opacity to 1 on scrolldown
+		if(window_scroll_top+header_height > window_height) {
+			$('.header').css("opacity", 1);
+		}
+		else{
+			$('.header').css("opacity", 0.3);
+		}
 
-		// //
+		//
 
 		if(window_scroll_top+header_height >= nav_aside_top){
 			nav_aside.css({position:'fixed',top:header_height});
