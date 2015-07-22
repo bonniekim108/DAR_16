@@ -11,7 +11,6 @@
 			<?php } ?>
 			<!-- End Social Media Icons -->
 			<!-- Begin Footer Logos Here -->
-			<?php var_dump(get_field('footer_logos'));?>
 
 			<?php if(get_field('footer_logos')): ?>
 
