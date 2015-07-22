@@ -10,22 +10,21 @@
 			</ul>
 			<?php } ?>
 			<!-- End Social Media Icons -->
-			<!-- Begin Footer Logos -->
-			<?php if( have_rows('footer_logos') ): ?>
-				<?php while( have_rows('footer_logos') ): the_row();
-				$image = get_sub_field('image');
-				$link = get_sub_field('link');
-			?>
-			
-			<?php if( $link ): ?>
-				<a href="<?php echo $link; ?>">
-			<?php endif; ?>
-				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
-			<?php if( $link ): ?>
-				</a>
-			<?php endif; ?>
-		<?php endwhile; ?>
-	<?php endif; ?>
+
+				<?php if( have_rows('footer_logos') ): ?>
+				<ul class="footer_logos">
+					<?php while( have_rows('footer_logos') ): the_row();
+					$image = get_sub_field('logo_image');
+					$link = get_sub_field('logo_url');
+				?>
+				<li class="logo">
+					<img src="<?php echo $image; ?>" alt=""/>
+				</li>	
+	<?php endwhile; ?>
+<?php endif; ?>
+
+</ul>
+
 			<!-- ENd Footer Logos -->
 			</div>
 			<div class="column col-2">
