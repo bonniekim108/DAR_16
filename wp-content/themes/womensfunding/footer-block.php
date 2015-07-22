@@ -11,8 +11,21 @@
 			<?php } ?>
 			<!-- End Social Media Icons -->
 			<!-- Begin Footer Logos -->
-
-
+			<?php if( have_rows('footer_logos') ): ?>
+				<?php while( have_rows('footer_logos') ): the_row();
+				$image = get_sub_field('image');
+				$link = get_sub_field('link');
+			?>
+			
+			<?php if( $link ): ?>
+				<a href="<?php echo $link; ?>">
+			<?php endif; ?>
+				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
+			<?php if( $link ): ?>
+				</a>
+			<?php endif; ?>
+		<?php endwhile; ?>
+	<?php endif; ?>
 			<!-- ENd Footer Logos -->
 			</div>
 			<div class="column col-2">
