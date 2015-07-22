@@ -11,17 +11,7 @@
 			<?php } ?>
 			<!-- End Social Media Icons -->
 			<!-- Begin Footer Logos -->
-<!-- 			<?php 
-			if( have_rows('footer_logos') ): ?>
-				<ul id="footer_logos">
-				<?php
-				while( has_sub_field('logo_image', 'option'): ?>
-				<li><img class="logo_image src="<?php the_sub_field('logo_image') ?>"/></li>
 
-      
-			<?php endwhile; ?>
-			</ul>
-		<?php endif; ?> -->
 
 			<!-- ENd Footer Logos -->
 			</div>
