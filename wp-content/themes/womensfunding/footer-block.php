@@ -10,22 +10,19 @@
 			</ul>
 			<?php } ?>
 			<!-- End Social Media Icons -->
+			<!-- Begin Footer Logos Here -->
+			<?php
+			if( get_field('footer_logos') ): ?>
+				<?php while( has_sub_field('logo_image') ): ?>
+					<div>
+						<img src="<?php the_sub_field('logo_image'); ?>" />
+						<a href="<?php the_sub_field('logo_url'); ?>"></a>
 
-				<?php if( have_rows('footer_logos') ): ?>
-				<ul class="footer_logos">
-					<?php while( have_rows('footer_logos') ): the_row();
-					$image = get_sub_field('logo_image');
-					$link = get_sub_field('logo_url');
+					</div>
+				<?php endwhile; ?>
+				<?php endif;
 				?>
-				<li class="logo">
-					<img src="<?php echo $image; ?>" alt=""/>
-				</li>	
-	<?php endwhile; ?>
-<?php endif; ?>
-
-</ul>
-
-			<!-- ENd Footer Logos -->
+			<!-- End Footer Logos -->
 			</div>
 			<div class="column col-2">
 				<h4><?php the_field('text_above_donate', 'option'); ?></h4>
