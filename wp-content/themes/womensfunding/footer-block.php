@@ -11,7 +11,10 @@
 			<?php } ?>
 			<!-- End Social Media Icons -->
 			<!-- Begin Footer Logos Here -->
+			<?php var_dump(get_field('footer_logos'));?>
+
 			<?php if(get_field('footer_logos')): ?>
+
 			<ul>
 				<?php while(has_sub_field('footer_logos')): ?>
 					<li>
@@ -21,6 +24,7 @@
 				<?php endwhile; ?>
 			</ul>
 			<?php endif; ?>
+
 			<!-- End Footer Logos -->
 			</div>
 			<div class="column col-2">
