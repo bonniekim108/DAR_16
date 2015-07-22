@@ -11,27 +11,18 @@
 			<?php } ?>
 			<!-- End Social Media Icons -->
 			<!-- Begin Footer Logos Here -->
+<?php var_dump(get_field('footer_logos'));?>
 
-			<?php if( have_rows('footer_logos') ): ?>
-			<?php var_dump( have_rows('footer_logos')) ?>
-			<ul class="all_logos">
-				<?php while( have_rows('footer_logos') ): the_row();
-				//vars
-				$image = get_sub_field('logo_image');
-				$url = get_sub_field('logo_url');
-				?>
-				<li class="each_logo">
-					<?php if( $link ): ?>
-						<a href="<?php echo $link; ?>">
-					<?php endif; ?>
-						<img src="<?php echo $image['url']; ?>" />
-					<?php if( $link ): ?>
-						</a>
-					<?php endif; ?>
-				</li>
-			<?php endwhile; ?>
-		</ul>
-	<?php endif; ?>
+			<?php if(get_field('footer_logos')): ?>
+
+			<ul>
+				<?php while(has_sub_field('footer_logos')): ?>
+					<li>
+						<a href="<?php the_sub_field('logo_url');?>"><img src="<?php the_sub_field('logo_image');?>" /></a>
+					</li>
+				<?php endwhile; ?>
+			</ul>
+			<?php endif; ?>
 
 			<!-- End Footer Logos -->
 			</div>
