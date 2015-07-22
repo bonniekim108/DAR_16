@@ -534,6 +534,12 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	margin: 0 0 16px;
 	color: #fff;
 	letter-spacing: 3px;
+	background-color: rgba(0, 145, 142, 0.85);
+	max-width: 75%;
+	margin: 0 auto;
+	padding-top: 1.5em;
+	padding-right: 1.7em;
+	padding-bottom: 0.6em;
 }
 .page-home-wrap h2{
 	text-transform: uppercase;
@@ -541,6 +547,10 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	margin: 0;
 	letter-spacing: 1px;
 	color: #fff;
+	background-color: rgba(0, 145, 142, 0.85);
+	max-width: 75%;
+	margin: 0 auto;
+	padding-bottom: 1.5em;
 }
 .page-home-wrap .btn-scroll-holder{
 	text-align: center;
