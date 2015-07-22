@@ -13,7 +13,7 @@
 			<!-- Begin Footer Logos Here -->
 
 			<?php if( have_rows('footer_logos') ): ?>
-
+			<?php var_dump( have_rows('footer_logos')) ?>
 			<ul class="all_logos">
 				<?php while( have_rows('footer_logos') ): the_row();
 				//vars
