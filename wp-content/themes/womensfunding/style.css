@@ -649,13 +649,13 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 #header .center-wrap{
 	padding: 0 80px 0 90px;
 }
-#header .long-logo{
+#header .logo{
 	float: left;
 	margin: 15px 0 0;
 	position: absolute;
 	left: 0;
 }
-#header .long-logo img{
+#header .logo img{
 	display: block;
 	max-height: 50px;
 	width: auto;
