@@ -53,7 +53,7 @@ blockquote{
     background: #2f3f6e;
 }
 #header{
-	background: rgba(120, 134, 154);
+	/*background: rgba(120, 134, 154);*/
 	position: fixed;
 	top: 0;
 	left: 0;
