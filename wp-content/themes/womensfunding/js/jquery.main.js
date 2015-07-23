@@ -33,7 +33,7 @@ function fixed_aside_nav(){
 		nav_aside_height = nav_aside.height() + header_height;
 
 		//change opacity to 1 on scrolldown
-		if(window_scroll_top+header_height > window_height) {
+		if($(window).scrollTop() > 400) {
 			$('.header').css("opacity", 1);
 		}
 		else{
