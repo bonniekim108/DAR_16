@@ -617,7 +617,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	background: #0c6b9c;
 }
 #header{
-	background: #612166;
+	background: rgb(120, 134, 154);
 	position: fixed;
 	top: 0;
 	left: 0;
