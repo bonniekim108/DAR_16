@@ -34,10 +34,10 @@ function fixed_aside_nav(){
 
 		//change opacity to 1 on scrolldown
 		if($(window).scrollTop() > 400) {
-			$('.header').css("opacity", rgba(120, 134, 154, 1));
+			$('.header').css("opacity", "#000000");
 		}
 		else{
-			$('.header').css("opacity", rgba(120, 134, 154, 0.3));
+			$('.header').css("opacity", "#fff");
 		}
 
 		//
