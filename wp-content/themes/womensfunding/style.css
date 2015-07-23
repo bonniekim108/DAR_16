@@ -243,6 +243,8 @@ ul{
 	display: block;
 	float: left;
 	padding-top: 25px;
+	padding-left: 0;
+	margin-left: 0;
 }
 ol{
 	margin:0 0 0 15px;
