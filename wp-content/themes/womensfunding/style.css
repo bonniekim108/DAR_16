@@ -234,7 +234,8 @@ hr{
 }
 ul li, ol li{
 	list-style-position:inside;
-	display: block;
+	display: inline-block;
+	padding-right: 12px;
 /*	padding-right: 10px;*/
 }
 ul{
@@ -243,7 +244,7 @@ ul{
 	padding:10 0 14px 10px;
 	display: block;
 	float: left;
-	padding-top: 25px;
+	padding-top: 43px;
 	padding-left: 0;
 	margin-left: -65px;
 }
