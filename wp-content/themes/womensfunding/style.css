@@ -235,7 +235,7 @@ hr{
 ul li, ol li{
 	list-style-position:outside;
 	display: inline-block;
-	padding-right: 10px;
+/*	padding-right: 10px;*/
 }
 ul{
 	list-style-type:disc;
@@ -662,7 +662,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	float: left;
 	margin: 15px 0 0;
 	position: absolute;
-	left: -40px;
+	left: 10px;
 }
 #header .full-logo{
 	float: left;
@@ -711,7 +711,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	color: #fff;
 }
 #nav .active a {
-		border-top: 3px solid #fff;
+		border-top: 3px solid #54b848;
 		line-height: 26px;
 }
 #nav a:hover{
