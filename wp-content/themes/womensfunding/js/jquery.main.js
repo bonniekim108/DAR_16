@@ -39,7 +39,7 @@ function fixed_aside_nav(){
 		// else{
 		// 	$('#header').css("opacity", "0.3");
 		// }
-		if($(this).scrollTop() > 100) {
+		if($(this).scrollTop() > 10) {
 			$('#header').addClass('scrolled');
 		}
 		else {
