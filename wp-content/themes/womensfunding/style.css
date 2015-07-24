@@ -232,6 +232,17 @@ hr{
 	height:1px;
 	margin:0 0 24px;
 }
+
+.each_logo {
+	list-style-position: inside;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.aside-li {
+	display: block;
+}
+
 ul li, ol li{
 	list-style-position:inside;
 	display: inline-block;

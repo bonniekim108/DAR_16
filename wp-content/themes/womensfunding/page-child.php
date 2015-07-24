@@ -74,7 +74,7 @@ jQuery(document).ready(function(){
 					$icon = get_field('icon', $ch_page->ID);
 					if($pid > 0) $active = ''; 
 				?>
-			<li <?php echo $active; ?>><a href="#" class="cf" data-story="story-<?php echo $pid+1; ?>"><?php if(!empty($icon)){ ?><img src="<?php echo $icon; ?>" height="64" width="64" alt=""/><?php }?><span><?php if(!empty($short_title)){ ?><i><?php echo $short_title;?></i><?php }else { ?><i><?php echo get_the_title( $ch_page->ID ); ?></i><?php }?></span></a></li>
+			<li class="aside-li" <?php echo $active; ?>><a href="#" class="cf" data-story="story-<?php echo $pid+1; ?>"><?php if(!empty($icon)){ ?><img src="<?php echo $icon; ?>" height="64" width="64" alt=""/><?php }?><span><?php if(!empty($short_title)){ ?><i><?php echo $short_title;?></i><?php }else { ?><i><?php echo get_the_title( $ch_page->ID ); ?></i><?php }?></span></a></li>
 			<?php }?>
 		</ul>
 		<script type="text/javascript">
