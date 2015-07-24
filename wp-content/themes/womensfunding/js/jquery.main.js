@@ -39,10 +39,10 @@ function fixed_aside_nav(){
 		// else{
 		// 	$('#header').css("opacity", "0.3");
 		// }
-		if (window_scroll_top > 0) {
+		if($(this).scrollTop() > 450) {
 			$('#header').addClass('scrolled');
 		}
-		if (window_scroll_top <= 0) {
+		else {
 			$('#header').removeClass('scrolled');
 		}
 
