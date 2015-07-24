@@ -52,14 +52,14 @@ blockquote{
 .page-home-wrap .main-menu ul a:hover {
     background: #2f3f6e;
 }
-#header{
-	/*background: rgba(120, 134, 154);*/
+/*#header{
+
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 200;
-}
+}*/
 #nav .active a{
 	background: transparent;
 }

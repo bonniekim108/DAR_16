@@ -33,12 +33,19 @@ function fixed_aside_nav(){
 		nav_aside_height = nav_aside.height() + header_height;
 
 		//change opacity to 1 on scrolldown
-		if($(this).scrollTop() > 450) {
-			$('#header').css("opacity", "1");
+		// if($(this).scrollTop() > 450) {
+		// 	$('#header').css("opacity", "1");
+		// }
+		// else{
+		// 	$('#header').css("opacity", "0.3");
+		// }
+		if (window_scroll_top > 0) {
+			$('#header').addClass('scrolled');
 		}
-		else{
-			$('#header').css("opacity", "0.3");
+		if (window_scroll_top <= 0) {
+			$('#header').removeClass('scrolled');
 		}
+
 
 		//
 
