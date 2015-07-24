@@ -233,7 +233,7 @@ hr{
 	margin:0 0 24px;
 }
 ul li, ol li{
-	list-style-position:outside;
+	list-style-position:inside;
 	display: block;
 /*	padding-right: 10px;*/
 }
