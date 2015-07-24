@@ -234,7 +234,7 @@ hr{
 }
 ul li, ol li{
 	list-style-position:outside;
-	display: inline-block;
+	display: block;
 /*	padding-right: 10px;*/
 }
 ul{
@@ -662,7 +662,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	float: left;
 	margin: 15px 0 0;
 	position: absolute;
-	left: 10px;
+	left: 0px;
 }
 #header .full-logo{
 	float: left;
