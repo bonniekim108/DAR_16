@@ -700,6 +700,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	letter-spacing: 1px;
 	text-decoration: none;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+	opacity: 1;
 }
 #nav .active a{
 	background: #0c6b9c;
@@ -709,7 +710,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	background: #4c0a59;
 	color: #fff;
 }
-#nav .active a, #nav a:hover{
+#nav .active a {
 		border-top: 3px solid #fff;
 		line-height: 26px;
 }
