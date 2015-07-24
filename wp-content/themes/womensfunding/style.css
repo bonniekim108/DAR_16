@@ -154,7 +154,7 @@ img{
 	vertical-align:middle;
 	max-width: 100%;
 	height: auto;
-	width: 180px;
+/*	width: 180px;*/
 }
 svg:not(:root){
 	overflow:hidden;
@@ -631,7 +631,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	left: 0;
 	right: 0;
 	z-index: 200;
-	opacity: 0.3;
+	opacity: 0.4;
 	transition: opacity 400ms ease;
 }
 
