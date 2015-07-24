@@ -233,13 +233,13 @@ hr{
 	margin:0 0 24px;
 }
 
-.each_logo {
+.all_logos > .each_logo {
 	list-style-position: inside;
 	display: inline-block;
 	padding-right: 10px;
 }
 
-.aside-li {
+.nav-aside > .aside-li {
 	display: block;
 }
 
