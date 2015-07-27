@@ -558,7 +558,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	background-color: rgba(0, 145, 142, 0.85);
 	max-width: 75%;
 	margin: 0 auto;
-	padding-top: 1.5em;
+	padding-top: 1em;
 	padding-bottom: 0.6em;
 }
 .page-home-wrap h2{
