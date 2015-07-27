@@ -1146,9 +1146,9 @@ h4+.two-cols-text{
 	margin-top:-5px;
 }
 .two-cols-text a{
-	display: inline-block;
+/*	display: inline-block;*/
 	vertical-align: top;
-	background: url(images/ico-web.png) no-repeat 0 70%;
+	/*background: url(images/ico-web.png) no-repeat 0 70%;*/
 	padding: 0 0 0 18px;
 	margin-top:-5px;
 }
