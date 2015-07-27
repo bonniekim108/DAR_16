@@ -33,7 +33,7 @@ html{
 	-ms-text-size-adjust:100%;
 }
 body{
-	font:16px/1.45 Helvetica, Arial, sans-serif;
+	font:14px/1.45 Helvetica, Arial, sans-serif;
 	margin:0;
 	height: 100%;
 	min-width: 1200px;
@@ -105,8 +105,9 @@ blockquote:before, blockquote:after, q:before, q:after{
 	content:none;
 }
 blockquote{
-	color: #231f20;
-	font: 16px/40px 'Open Sans', Helvetica, sans-serif;
+	color: #41546b;
+	font-weight: 600;
+	font: 14px/40px 'Open Sans', Helvetica, sans-serif;
 	margin:0 0 36px;
 	padding: 15px 0;
 }
@@ -643,7 +644,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	left: 0;
 	right: 0;
 	z-index: 200;
-	opacity: 0.4;
+	opacity: 1;
 	transition: opacity 400ms ease;
 }
 
@@ -2391,7 +2392,7 @@ h4 + .separator{
 	width: 325px;
 	color: #638b1c;
 	margin: 56px 0 0;
-	padding: 0 0 0 30px;
+	padding: 0 0 780px 30px;
 	font:italic 18px/40px Georgia, 'Times New Roman', Times, serif;
 }
 .s-story .s-aside-quote{

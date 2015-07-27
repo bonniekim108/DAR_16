@@ -103,6 +103,7 @@ h2{
 }
 h3{
 	color: #41546b;
+	font-weight: 600;
 }
 h4{
 	color: #54b848;
@@ -236,7 +237,7 @@ h3.red{
 	color: #54b848;
 }
 .s-aside-quote{
-	color: #6b86af;
+	color: #00918e;
 }
 .main-supporters h1{
 	color: #54b848;
