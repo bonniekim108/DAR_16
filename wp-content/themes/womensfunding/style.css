@@ -1626,8 +1626,10 @@ h3.red{
 	display: block;
 	width: 162px;
 	height: 162px;
-	margin: -2px;
+/*	max-height: 162px;*/
+/*	margin: -2px;*/
 	max-width: 162px;
+	object-fit: cover;
 }
 .team-list-widget .team-list h3{
 	color: #0c6b9c;
