@@ -34,7 +34,7 @@ function scroll_content(block){
 		<?php foreach($sections as $sid=>$section){ ?>
 		<?php if($sid > 0) $active = ''; ?>
 		<li <?php echo $active; ?>>
-			<a href="#" data-story="financial-section-<?php echo $sid+1; ?>">
+			<a href="#" target="_blank" data-story="financial-section-<?php echo $sid+1; ?>">
 				<img src="<?php echo $section['left_menu_icon']; ?>" height="64" width="64" alt="">
 				<span><?php echo $section['left_menu_title'];?></span>
 			</a>
