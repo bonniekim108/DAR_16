@@ -11,7 +11,6 @@
 			<?php } ?>
 			<!-- End Social Media Icons -->
 			<!-- Begin Footer Logos Here -->
-<?php var_dump(get_field('footer_logos'));?>
 
 <?php if( have_rows('footer_logos') ): ?>
 	<ul class="all_logos">
@@ -39,7 +38,7 @@
 			</div>
 			<div class="column col-2">
 				<h4><?php the_field('text_above_donate', 'option'); ?></h4>
-			<a href="<?php the_field('donate_link', 'option'); ?>" target="_blank" class="btn-red"><?php the_field('donate_button_text', 'option'); ?></a>
+				<a href="<?php the_field('donate_link', 'option'); ?>" target="_blank" class="btn-red"><?php the_field('donate_button_text', 'option'); ?></a>
 			</div>
 			<div class="column col-3">
 				<h4><?php the_field('text_above_join', 'option'); ?></h4>
