@@ -13982,7 +13982,7 @@ Searching 5235 files for "a href"
 /Users/bonniekim108/Sites/DAR_16/wp-content/themes/womensfunding/header.php:
    95  		<header id="header">
    96  			<div class="center-wrap cf">
-   97: 				<strong class="full-logo"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo TDU; ?>/images/nrblogo_white.png" alt="<?php bloginfo('name'); ?>"></a></strong>
+   97: 				<strong class="full-logo"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" target="_blank" rel="home"><img src="<?php echo TDU; ?>/images/nrblogo_white.png" alt="<?php bloginfo('name'); ?>"></a></strong>
    98  				<?php wp_nav_menu( array(
    99  				'container' => 'nav',
 
