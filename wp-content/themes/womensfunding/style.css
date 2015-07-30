@@ -930,6 +930,12 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	border-bottom: 2px solid #d7d7d7;
 }
 
+.twocolumns .aside-content > #story-5 {
+
+	border-bottom: 0;
+}
+
+
 .aside-content > #story-5 {
 	border-bottom: 0;
 
