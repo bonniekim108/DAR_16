@@ -288,6 +288,7 @@ ul{
 	list-style-type: disc;
 	display: block;
 	padding-top: 0;
+	padding-bottom: 10px;
 	list-style-position: inside;
 	margin-left: 0;
 }
@@ -303,6 +304,7 @@ ul{
 	display: block;
 	margin-left: 0;
 	padding-top: 0;
+	padding-bottom: 10px;
 }
 
 #story-2 li {
@@ -316,6 +318,7 @@ ul{
 	display: block;
 	margin-left: 0;
 	padding-top: 0;
+	padding-bottom: 10px;
 }
 
 #story-3 li {
@@ -330,6 +333,7 @@ ul{
 	padding-bottom: 30px;
 	padding-left: 0;
 	margin-left: 0;
+	padding-bottom: 10px;
 }
 
 #story-4 li {
