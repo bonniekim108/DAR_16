@@ -363,7 +363,7 @@ jQuery(document).ready(function(){
 				<p>WE ARE GRATEFUL TO <a href="#">U.S. TRUST</a> AND THE <a href="#">FORD FOUNDATION</a> FOR THEIR SUPPORT OF THESE CONVENINGS.</p>
 			</div>
 		</div>
-		<div id="story-5" class="s-story" class="s-story-2">
+		<div id="story-5" class="s-story">
 			<h2>BUILDING CAPACITY TO ENGAGE <br>MAJOR DONORS </h2>
 			<h4 class="mbn">Energizing 600 Donors to Join the Movement</h4>
 			<p>One of the most common challenges that Women’s Funding Network members share with us is a need for fresh strategies and messaging that will engage new supporters in their work. When this need is combined with a complex issue like reproductive health, the task to engage donors can become even more daunting.</p>
