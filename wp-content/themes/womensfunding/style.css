@@ -267,12 +267,27 @@ ul{
 }
 
 #story-1 > ul {
+	list-style-type: disc;
+	display: block;
 	padding-top: 0;
 	list-style-position: inside;
 	margin-left: 0;
 }
 
 #story-1 li {
+	list-style-position: inside;
+	margin-left: 50px;
+	margin-bottom: 15px;
+	font-style: italic;
+}
+
+#story-2 > ul {
+	list-style-type: disc;
+	display: block;
+	margin-left: 0;
+}
+
+#story-2 li {
 	margin-left: 50px;
 	margin-bottom: 15px;
 	font-style: italic;
