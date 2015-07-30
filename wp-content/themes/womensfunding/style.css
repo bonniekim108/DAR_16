@@ -249,6 +249,11 @@ hr{
 	display: block;
 }
 
+.column ul li, ol li {
+	list-style-position: inside;
+	display: inline-block;
+}
+
 ul li, ol li{
 	list-style-position:inside;
 /*	display: inline-block;*/
