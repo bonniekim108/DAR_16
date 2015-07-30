@@ -322,6 +322,7 @@ ul{
 #story-4 > ul {
 	display: block;
 	padding-top: 0;
+	padding-bottom: 30px;
 	padding-left: 0;
 	margin-left: 0;
 }
