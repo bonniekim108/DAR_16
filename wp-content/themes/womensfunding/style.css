@@ -266,14 +266,14 @@ ul{
 	margin-left: -65px;
 }
 
-.aside-content .content-style > ul {
+.aside-content > ul {
 	display: block;
 	padding-top: 0;
 	padding-left: 0;
 	margin-left: 0;
 }
 
-.aside-content .content-style > ul li {
+.aside-content > ul li {
 	margin-left: 50px;
 	margin-bottom: 18px;
 	font-style: italic;
