@@ -19,11 +19,12 @@
 			//vars
 		$image = get_sub_field('logo_image');
 		$url = get_sub_field('logo_url');
+		$target = get_sub_field('logo_target') ? "_blank" : "" ;
 
 		?>
 		<li class="each_logo">
 			<?php if( $url ): ?>
-			<a href="<?php echo $url; ?>" target="_blank">
+			<a href="<?php echo $url; ?>" target="<?= $target; ?>">
 			<?php endif; ?>
 			<img src="<?php echo $image['url']; ?>" />
 			<?php if( $url ): ?>
