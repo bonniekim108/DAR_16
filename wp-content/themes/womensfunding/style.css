@@ -961,7 +961,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	border-bottom: 2px solid #d7d7d7;
 }
 
-.s-story:last-child {
+.twocolumns .aside-content .s-story:last-child {
 	border-bottom: none;
 }
 /*.twocolumns .aside-content > #story-5 {
