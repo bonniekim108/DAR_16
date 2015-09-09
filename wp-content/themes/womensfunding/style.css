@@ -926,6 +926,10 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	padding: 28px 0 0;
 	position: relative;
 }
+
+.twocolumns .aside-content > blockquote strong {
+	margin: 0;
+}
 .twocolumns .aside-content.v1{
 	margin: 0;
 	padding: 35px 0 0;
