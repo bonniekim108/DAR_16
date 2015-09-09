@@ -927,7 +927,7 @@ dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
 	position: relative;
 }
 
-.aside-content > blockquote p {
+blockquote p {
 	margin: 0;
 }
 .twocolumns .aside-content.v1{
