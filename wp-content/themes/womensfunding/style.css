@@ -346,7 +346,7 @@ ol{
 	padding:0 0 14px 10px;
 }
 dl, p, h1, h2, h3, h4, h5, h6, applet, embed, object, frameset{
-	margin:0 0 24px;
+	margin:0 0 100px;
 }
 .alignleft{
 	float: left;
